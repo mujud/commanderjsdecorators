@@ -1,0 +1,28 @@
+{
+  "name": "commanderjsdecorators",
+  "version": "1.0.0",
+  "description": "Annotations to quickly create Command line utilities with commanderjs and typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mujud/commanderjsdecorators.git"
+  },
+  "author": "Jalil Laaraichi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mujud/commanderjsdecorators/issues"
+  },
+  "homepage": "https://github.com/mujud/commanderjsdecorators#readme",
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333",
+    "@types/node": "^11.10.4"
+  }
+}
